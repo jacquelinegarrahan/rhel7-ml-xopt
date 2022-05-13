@@ -2,11 +2,9 @@ name: rhel7-ml-xopt
 channels:
   - conda-forge
 dependencies:
-  - python=3.9
-  - libgcc
+  - python=3.8
   - deap
   - numpy
-  - scipy
   - pydantic
   - pyyaml
   - pandas
@@ -24,6 +22,7 @@ dependencies:
   - numdifftools
   - pip
   - pip:
+    - scipy
     - git+https://github.com/ChristopherMayes/Xopt.git@rewrite
     - git+https://github.com/cornellius-gp/gpytorch.git
     - git+https://github.com/pytorch/botorch.git
