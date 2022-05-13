@@ -3,26 +3,26 @@ channels:
   - conda-forge
 dependencies:
   - python=3.8
-  - deap 
-  - numpy 
+  - deap
+  - numpy
   - pydantic
   - pyyaml
   - pandas # requires scipy
   - pyepics
-  - ipywidgets 
+  - ipywidgets
   - tqdm
 # parallel
   - mpi4py
   - dask
 # Developer
   - pytest
-  - jupyterlab>=3
+  - jupyterlab>=3 
   - matplotlib
   - pygments
   - numdifftools
   - pip
   - pip:
-    - scipy ==1.7
+    - scipy ==1.4.1
     - git+https://github.com/ChristopherMayes/Xopt.git@rewrite
     - git+https://github.com/cornellius-gp/gpytorch.git
     - git+https://github.com/pytorch/botorch.git
