@@ -3,8 +3,8 @@ channels:
   - conda-forge
 dependencies:
   - python=3.8
-  - deap
-  - numpy
+  - deap +
+  - numpy +
   - pydantic
   - pyyaml
   - pandas
@@ -22,7 +22,7 @@ dependencies:
   - numdifftools
   - pip
   - pip:
-    - scipy
+    - scipy ==1.7
     - git+https://github.com/ChristopherMayes/Xopt.git@rewrite
     - git+https://github.com/cornellius-gp/gpytorch.git
     - git+https://github.com/pytorch/botorch.git
