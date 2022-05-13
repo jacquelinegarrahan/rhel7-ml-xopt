@@ -5,6 +5,7 @@ dependencies:
   - python=3.9
   - deap
   - numpy
+  - scipy
   - pydantic
   - pyyaml
   - pandas
@@ -25,3 +26,4 @@ dependencies:
     - git+https://github.com/ChristopherMayes/Xopt.git@rewrite
     - git+https://github.com/cornellius-gp/gpytorch.git
     - git+https://github.com/pytorch/botorch.git
+    - git+https://github.com/slaclab/PyEmittance.git
