@@ -1,0 +1,27 @@
+name: rhel7-ml-xopt
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - deap
+  - numpy
+  - pydantic
+  - pyyaml
+  - pandas
+  - pyepics
+  - ipywidgets
+  - tqdm
+# parallel
+  - mpi4py
+  - dask
+# Developer
+  - pytest
+  - jupyterlab>=3
+  - matplotlib
+  - pygments
+  - numdifftools
+  - pip
+  - pip:
+    - git+https://github.com/ChristopherMayes/Xopt.git@rewrite
+    - git+https://github.com/cornellius-gp/gpytorch.git
+    - git+https://github.com/pytorch/botorch.git
