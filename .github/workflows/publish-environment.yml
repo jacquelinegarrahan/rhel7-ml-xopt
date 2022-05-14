@@ -9,7 +9,6 @@ jobs:
   build:
     env:
       ENVIRONMENT_NAME: rhel7-ml-xopt
-      TEST_FILE: test.sh
     runs-on: ubuntu-latest
     name: Build environment
     steps:
